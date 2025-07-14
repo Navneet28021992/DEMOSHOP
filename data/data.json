@@ -1,0 +1,10 @@
+{
+    "DemoShop":{
+        "username":"demoshop4200@gmail.com",
+        "password":"demoshop",
+        "orderQuantity":"2",
+        "country":"India",
+        "address":"Demo Shop, Address1, Ballia 110012, India",
+        "expectedMessage":"Your order has been successfully processed!"
+    }
+}

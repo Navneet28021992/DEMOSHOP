@@ -1,0 +1,3 @@
+count of desktop is: 6
+Message on page is: Your order has been successfully processed!
+Order id is: 2045163

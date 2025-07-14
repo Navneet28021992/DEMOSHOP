@@ -1,0 +1,284 @@
+# Page snapshot
+
+```yaml
+- link "Tricentis Demo Web Shop":
+  - /url: /
+  - img "Tricentis Demo Web Shop"
+- list:
+  - listitem:
+    - link "demoshop4200@gmail.com":
+      - /url: /customer/info
+  - listitem:
+    - link "Log out":
+      - /url: /logout
+  - listitem:
+    - link "Shopping cart (0)":
+      - /url: /cart
+  - listitem:
+    - link "Wishlist (0)":
+      - /url: /wishlist
+- status
+- textbox: Search store
+- button "Search"
+- list:
+  - listitem:
+    - link "Books":
+      - /url: /books
+  - listitem:
+    - link "Computers":
+      - /url: /computers
+  - listitem:
+    - link "Electronics":
+      - /url: /electronics
+  - listitem:
+    - link "Apparel & Shoes":
+      - /url: /apparel-shoes
+  - listitem:
+    - link "Digital downloads":
+      - /url: /digital-downloads
+  - listitem:
+    - link "Jewelry":
+      - /url: /jewelry
+  - listitem:
+    - link "Gift Cards":
+      - /url: /gift-cards
+- strong: Categories
+- list:
+  - listitem:
+    - link "Books":
+      - /url: /books
+  - listitem:
+    - link "Computers":
+      - /url: /computers
+    - list:
+      - listitem:
+        - link "Desktops":
+          - /url: /desktops
+      - listitem:
+        - link "Notebooks":
+          - /url: /notebooks
+      - listitem:
+        - link "Accessories":
+          - /url: /accessories
+  - listitem:
+    - link "Electronics":
+      - /url: /electronics
+  - listitem:
+    - link "Apparel & Shoes":
+      - /url: /apparel-shoes
+  - listitem:
+    - link "Digital downloads":
+      - /url: /digital-downloads
+  - listitem:
+    - link "Jewelry":
+      - /url: /jewelry
+  - listitem:
+    - link "Gift Cards":
+      - /url: /gift-cards
+- strong: Manufacturers
+- list:
+  - listitem:
+    - link "Tricentis":
+      - /url: /tricentis
+- strong: Newsletter
+- text: "Sign up for our newsletter:"
+- textbox
+- button "Subscribe"
+- list:
+  - listitem:
+    - link "Home":
+      - /url: /
+    - text: /
+  - listitem:
+    - link "Computers":
+      - /url: /computers
+    - text: /
+  - listitem:
+    - link "Desktops":
+      - /url: /desktops
+    - text: /
+  - listitem:
+    - strong: Build your own expensive computer
+- img "Picture of Build your own expensive computer"
+- link "Picture of Build your own expensive computer":
+  - /url: https://demowebshop.tricentis.com/content/images/thumbs/0000201_build-your-own-expensive-computer.jpeg
+  - img "Picture of Build your own expensive computer"
+- link "Picture of Build your own expensive computer":
+  - /url: https://demowebshop.tricentis.com/content/images/thumbs/0000202_build-your-own-expensive-computer.jpeg
+  - img "Picture of Build your own expensive computer"
+- link "Picture of Build your own expensive computer":
+  - /url: https://demowebshop.tricentis.com/content/images/thumbs/0000203_build-your-own-expensive-computer.jpeg
+  - img "Picture of Build your own expensive computer"
+- heading "Build your own expensive computer" [level=1]
+- text: "Build it Availability: In stock Free shipping"
+- link "413 review(s)":
+  - /url: /productreviews/74
+- text: "|"
+- link "Add your review":
+  - /url: /productreviews/74
+- term: Processor *
+- definition:
+  - list:
+    - listitem:
+      - radio "Slow" [checked]
+      - text: Slow
+    - listitem:
+      - radio "Medium [+15.00]"
+      - text: Medium [+15.00]
+    - listitem:
+      - radio "Fast [+100.00]"
+      - text: Fast [+100.00]
+- term: RAM *
+- definition:
+  - list:
+    - listitem:
+      - radio "2 GB"
+      - text: 2 GB
+    - listitem:
+      - radio "4GB [+20.00]" [checked]
+      - text: 4GB [+20.00]
+    - listitem:
+      - radio "8GB [+60.00]"
+      - text: 8GB [+60.00]
+- term: HDD *
+- definition:
+  - list:
+    - listitem:
+      - radio "320 GB"
+      - text: 320 GB
+    - listitem:
+      - radio "400 GB [+100.00]" [checked]
+      - text: 400 GB [+100.00]
+- term: Software
+- definition:
+  - list:
+    - listitem:
+      - checkbox "Image Viewer [+5.00]"
+      - text: Image Viewer [+5.00]
+    - listitem:
+      - checkbox "Office Suite [+100.00]"
+      - text: Office Suite [+100.00]
+    - listitem:
+      - checkbox "Other Office Suite [+40.00]"
+      - text: Other Office Suite [+40.00]
+- text: "1800.00 Qty:"
+- textbox "Qty:": "1"
+- button "Add to cart"
+- button "Email a friend"
+- button "Add to compare list"
+- paragraph: Fight back against cluttered workspaces with this stylish All-in-One desktop PC, featuring powerful computing resources and a stunning 20.1-inch widescreen display with stunning HiColor LCD technology. It has a built-in microphone and a camera with face-tracking technology that allows for easy communication with friends and family. And it has a built-in DVD burner so you can create a digital entertainment library for personal viewing at your convenience. Easy to setup and even easier to use, it includes an elegantly designed keyboard and a USB mouse.
+- strong: Product tags
+- list:
+  - listitem:
+    - link "computer":
+      - /url: /producttag/6/computer
+    - text: (10)
+  - listitem: ","
+  - listitem:
+    - link "awesome":
+      - /url: /producttag/8/awesome
+    - text: (20)
+- strong: Customers who bought this item also bought
+- link "Picture of Simple Computer":
+  - /url: /simple-computer
+  - img "Picture of Simple Computer"
+- heading "Simple Computer" [level=2]:
+  - link "Simple Computer":
+    - /url: /simple-computer
+- text: "800.00"
+- button "Add to cart"
+- link "Picture of 14.1-inch Laptop":
+  - /url: /141-inch-laptop
+  - img "Picture of 14.1-inch Laptop"
+- heading "14.1-inch Laptop" [level=2]:
+  - link "14.1-inch Laptop":
+    - /url: /141-inch-laptop
+- text: "1590.00"
+- button "Add to cart"
+- link "Picture of $100 Physical Gift Card":
+  - /url: /100-physical-gift-card
+  - img "Picture of $100 Physical Gift Card"
+- heading "$100 Physical Gift Card" [level=2]:
+  - link "$100 Physical Gift Card":
+    - /url: /100-physical-gift-card
+- text: "100.00"
+- button "Add to cart"
+- heading "Information" [level=3]
+- list:
+  - listitem:
+    - link "Sitemap":
+      - /url: /sitemap
+  - listitem:
+    - link "Shipping & Returns":
+      - /url: /shipping-returns
+  - listitem:
+    - link "Privacy Notice":
+      - /url: /privacy-policy
+  - listitem:
+    - link "Conditions of Use":
+      - /url: /conditions-of-use
+  - listitem:
+    - link "About us":
+      - /url: /about-us
+  - listitem:
+    - link "Contact us":
+      - /url: /contactus
+- heading "Customer service" [level=3]
+- list:
+  - listitem:
+    - link "Search":
+      - /url: /search
+  - listitem:
+    - link "News":
+      - /url: /news
+  - listitem:
+    - link "Blog":
+      - /url: /blog
+  - listitem:
+    - link "Recently viewed products":
+      - /url: /recentlyviewedproducts
+  - listitem:
+    - link "Compare products list":
+      - /url: /compareproducts
+  - listitem:
+    - link "New products":
+      - /url: /newproducts
+- heading "My account" [level=3]
+- list:
+  - listitem:
+    - link "My account":
+      - /url: /customer/info
+  - listitem:
+    - link "Orders":
+      - /url: /customer/orders
+  - listitem:
+    - link "Addresses":
+      - /url: /customer/addresses
+  - listitem:
+    - link "Shopping cart":
+      - /url: /cart
+  - listitem:
+    - link "Wishlist":
+      - /url: /wishlist
+- heading "Follow us" [level=3]
+- list:
+  - listitem:
+    - link "Facebook":
+      - /url: http://www.facebook.com/nopCommerce
+  - listitem:
+    - link "Twitter":
+      - /url: https://twitter.com/nopCommerce
+  - listitem:
+    - link "RSS":
+      - /url: /news/rss/1
+  - listitem:
+    - link "YouTube":
+      - /url: http://www.youtube.com/user/nopCommerce
+  - listitem:
+    - link "Google+":
+      - /url: https://plus.google.com/+nopcommerce
+- text: Powered by
+- link "nopCommerce":
+  - /url: http://www.nopcommerce.com/
+- text: Copyright © 2025 Tricentis Demo Web Shop. All rights reserved.
+```
