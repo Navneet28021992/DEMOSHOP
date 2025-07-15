@@ -7,9 +7,12 @@ import {DesktopPage} from '../../pages/DesktopPage.js';
 import { CartPage } from '../../pages/CartPage.js';
 import { CheckOutPage } from '../../pages/CheckOutPage.js';
 import {getTestData} from '../../utility/Excel.js'
+const playwright = require('@playwright/test');
 
 
 test.beforeEach(async ({ page }) => {
+  
+  //page = await context.newPage();
   // Runs before each test and signs in each page.
   await page.goto('https://demowebshop.tricentis.com/');
   
