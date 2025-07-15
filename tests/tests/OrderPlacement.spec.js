@@ -31,7 +31,7 @@ test('Order Placement', async ({ page }) => {
   //Validate Count of Desktop Computers
   let c= await desktopPage.countOfComputers()
   await expect(6).toEqual(c);
-  await page.waitForTimeout(3000)
+  //await page.waitForTimeout(3000)
 
   await desktopPage.clickOnBuildYourOwnExpensiveComputer()
   await desktopPage.selectProcessor()
