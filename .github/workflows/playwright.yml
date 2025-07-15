@@ -30,3 +30,4 @@ jobs:
       uses: pavi2410/html-preview-action@v2
       with:
         html_file: 'playwright-report\index.html'
+        job_summary: true
