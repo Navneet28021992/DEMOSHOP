@@ -13,6 +13,7 @@
     "allure-playwright": "^3.3.0"
   },
   "dependencies": {
+    "dotenv": "^17.2.0",
     "exceljs": "^4.4.0"
   }
 }
