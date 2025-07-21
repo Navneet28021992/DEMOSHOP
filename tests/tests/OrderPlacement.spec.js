@@ -11,12 +11,6 @@ const playwright = require('@playwright/test');
 import { runBatchFile } from '../../utility/Excel.js'
 
 
-
-/*test.beforeEach(async ({ page }) => {
-
-  // Runs before each test and signs in each page.
-  await page.goto('/'); 
-});*/
 [
   { length: 2552, width: 920 },
   { length: 1170, width: 676 },
