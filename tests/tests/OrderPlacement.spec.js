@@ -33,7 +33,7 @@ import { runBatchFile } from '../../utility/Excel.js'
 
     //Validate Count of Desktop Computers
     let c = await desktopPage.countOfComputers()
-    await expect(6).toEqual(c);
+    await expect(c).toEqual(Number(`${data['desktopCount']}`));
 
     await desktopPage.clickOnBuildYourOwnExpensiveComputer()
     await desktopPage.selectProcessor()

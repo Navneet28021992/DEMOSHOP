@@ -77,8 +77,6 @@ export default defineConfig({
       name: 'Microsoft Edge',
       use: {
         ...devices['Desktop Edge'], channel: 'msedge',
-        //viewport: null, // Disable fixed viewport
-        //deviceScaleFactor: undefined, // Prevent deviceScaleFactor error with null viewport
         launchOptions: {
           //args: ['--start-maximized'],
         },
