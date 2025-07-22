@@ -33,18 +33,3 @@ export async function getTestData(sheetName, TC_ID) {
 
   return null; // If no match is found
 }
-
-// Inside your Playwright test or script
-export async function runBatchFile() {
-  return new Promise((resolve, reject) => {
-    exec('C:/Users/navneetkumar.maurya/Downloads/xyz.bat', (error, stdout, stderr) => {
-      if (error) {
-        console.error(`exec error: ${error}`);
-        return reject(error);
-      }
-      console.log(`stdout: ${stdout}`);
-      console.error(`stderr: ${stderr}`);
-      resolve(stdout);
-    });
-  });
-}

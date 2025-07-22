@@ -28,6 +28,7 @@ import { runBatchFile } from '../../utility/Excel.js'
 
     //await login.login(DemoShop.username,DemoShop.password)
     await login.login(`${data['username']}`, `${data['password']}`)
+    await homePage.countAndDisplayComputerSubMenuItems()
     await homePage.goToComputers()
     await homePage.goToDesktops()
 

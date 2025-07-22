@@ -1,0 +1,11 @@
+Count of Compuetr Submenu items is: 3
+List computer Sub Items is:
+Desktops
+Notebooks
+Accessories
+2025-07-22T10:01:05+05:30 [info]: New button is clicked
+count of desktop is: 6
+2025-07-22T10:01:07+05:30 [info]: Build your computer link is clicked
+2025-07-22T10:01:07+05:30 [info]: processor is selected
+Message on page is: Your order has been successfully processed!
+Order id is: 2051544

@@ -1,4 +1,7 @@
 const { count } = require('console');
+const logger = require('../utility/LoggerUtil');
+
+
 
 exports.DesktopPage = class DesktopPage {
 
@@ -29,9 +32,11 @@ exports.DesktopPage = class DesktopPage {
   async clickOnBuildYourOwnExpensiveComputer() {
     await this.buildYourComputer.scrollIntoViewIfNeeded();
     await this.buildYourComputer.click()
+    logger.info("Build your computer link is clicked");
   }
   async selectProcessor() {
     await this.processor.click()
+    logger.info("processor is selected");
   }
   async selectRAM() {
     await this.ram.click()
