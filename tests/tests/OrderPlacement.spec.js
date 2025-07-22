@@ -27,7 +27,8 @@ import { runBatchFile } from '../../utility/Excel.js'
     const checkOutPage = new CheckOutPage(page)
 
     //await login.login(DemoShop.username,DemoShop.password)
-    await login.login(`${data['username']}`, `${data['password']}`)
+    //await login.login(`${data['username']}`, `${data['password']}`)
+    await login.login(process.env.USER_NAME, process.env.PASSWORD)
     await homePage.countAndDisplayComputerSubMenuItems()
     await homePage.goToComputers()
     await homePage.goToDesktops()
